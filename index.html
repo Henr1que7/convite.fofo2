@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Um convite para você 💜🍕</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts"></div>
+
+    <main class="app">
+
+        <!-- TELA 1 -->
+
+        <section class="card active" id="screen1">
+
+            <div class="emoji">
+                🥺
+            </div>
+
+            <p class="small">
+                Tenho uma pergunta...
+            </p>
+
+            <h1>
+                Você aceita<br>
+                sair comigo?
+            </h1>
+
+            <div class="buttons">
+
+                <button class="primary" id="yesBtn">
+                    SIM 💜
+                </button>
+
+                <button class="secondary no-btn" id="noBtn">
+                    NÃO 😭
+                </button>
+
+            </div>
+
+            <p class="hint">
+                Pensa bem... 👀
+            </p>
+
+        </section>
+
+
+        <!-- TELA 2 - HORÁRIO -->
+
+        <section class="card" id="screen2">
+
+            <div class="icon">
+                🕐
+            </div>
+
+            <h2>
+                Que horas você está livre?
+            </h2>
+
+            <label for="time">
+                Escolha o horário
+            </label>
+
+            <input
+                type="time"
+                id="time"
+                value="19:00"
+            >
+
+            <button
+                class="primary wide"
+                id="continueTime"
+            >
+                CONTINUAR 💜
+            </button>
+
+        </section>
+
+
+        <!-- TELA 3 - PIZZA -->
+
+        <section class="card" id="screen3">
+
+            <div class="icon">
+                🍕
+            </div>
+
+            <h2>
+                O que vamos comer?
+            </h2>
+
+            <div class="pizza-choice selected">
+
+                <span>
+                    🍕
+                </span>
+
+                <strong>
+                    Pizza
+                </strong>
+
+                <small>
+                    Essa já é obrigatória 😌
+                </small>
+
+            </div>
+
+            <button
+                class="primary wide"
+                id="continuePizza"
+            >
+                CONTINUAR 💜
+            </button>
+
+        </section>
+
+
+        <!-- TELA 4 - CONFIRMAÇÃO -->
+
+        <section class="card" id="screen4">
+
+            <div class="check">
+                💜
+            </div>
+
+            <h2>
+                Então está marcado!
+            </h2>
+
+            <div class="summary">
+
+                <p>
+                    🕐
+                    <span id="finalTime">
+                        --:--
+                    </span>
+                </p>
+
+                <p>
+                    🍕 Pizza
+                </p>
+
+            </div>
+
+            <p class="message">
+
+                Só queria uma desculpa para passar
+                um tempinho com você...
+
+                <br><br>
+
+                E pizza parece uma ótima desculpa. 🥰🍕
+
+            </p>
+
+            <button
+                class="primary wide"
+                id="finishBtn"
+            >
+                VOU TE BUSCAR 💜
+            </button>
+
+        </section>
+
+
+        <!-- TELA FINAL -->
+
+        <section class="card" id="screen5">
+
+            <div class="final-pizza">
+                🍕💜
+            </div>
+
+            <h1>
+                Pizza + Você
+                <br>
+                = planos perfeitos
+            </h1>
+
+            <p class="message">
+
+                Até logo, gatinha. ❤️
+
+                <br><br>
+
+                Vai ser muito bom estar com você!
+
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
